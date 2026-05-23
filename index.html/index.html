@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Light of Asia School</title>
+  <script src="../JS/scripts.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZmCULaM6tU8ZlX/VWcfYbOOl7+O3qNHbv5V9zzTtmI3UksdQRVvoxMfooAoRBv0z+8==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- Bootstrap CSS -->
+  <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" rel="stylesheet"> -->
+  <!-- Font Awesome -->
+   <!-- Khmer Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Khmer:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+ <head>
+  <link rel="stylesheet" href="../CSS/style.css">
+  <link rel="stylesheet" href="D:\Website of las\news">
+  <link rel="stylesheet" href="d:\Website of las\subject">
+  <link rel="stylesheet" href="d:\Website of las\HTML">
+  
+  
+ <script src="../JS/responsivebar.js"></script>
+ <script src="../JS/news.js"></script>
+</head>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Khmer:wght@400;600;700&family=Noto+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+    font-family: "Noto Sans Khmer", "Noto Sans", system-ui, sans-serif,;
+    
+    }
+  </style>
+</head>
+<body >
+ <!-- Header -->
+ <header class="site-header">
+  <div class="container header-wrapper">
+    <a class="brand" href="../HTML/about.html">
+      <img src="../src/logo/LOGO.gif" alt="Light of Asia School Logo" class="brand-logo" />
+    </a>
+
+    <!-- Hamburger toggle button -->
+    <button class="nav-toggle" aria-label="Toggle navigation">
+      ☰
+    </button>
+    <ul class="nav-list">
+      <li><a href="../index.html/index.html">ទំព័រដើម</a></li>
+      <li><a href="../index.html/about.html">អំពីយើង</a></li>
+      <li>
+        <a href="../subject/program.html">កម្មវិធីសិក្សា</a>
+       
+      </li>
+      <li><a href="../news/index.html">ព័ត៍មាន &amp; ព្រឹត្តិការណ៍</a></li>
+      <li><a href="../index.html/contact.html">ការទំនាក់ទំនង</a></li>
+    </ul>
+  </div>
+</header>
+ <!-- ================= HERO ================= -->
+  <section class="hero">
+    <div class="container hero-grid">
+      <!-- LEFT -->
+      <div class="hero-copy">
+        <h1>
+          សាលារៀន ពន្លឺ អាស៊ី
+        </h1>
+        <p>
+          ក្នុងរយៈពេលជិត១០ឆ្នាំមកនេះ សាលារៀន ពន្លឺ អាស៊ីបានអភិវឌ្ឍន៍យ៉ាងឆាប់រហ័ស ហើយមានសាខាចំនួន៦ទីតាំង។ សាលាបន្តប្តេជ្ញាផ្តល់ការអប់រំមានគុណភាព
+          ដើម្បីបណ្តុះក្មេងជំនាន់ក្រោយ ឲ្យមានចំណេះដឹង វិន័យ និងគុណធម៌។
+        </p>
+        <div class="hero-actions">
+          <a class="btnn"  href="../index.html/contact.html">ទំនាក់ទំនង</a>
+        </div>
+      </div>
+
+      <!-- RIGHT -->
+      <div class="hero-visual" id="heroVisual">
+        <!-- BUTTON -->
+        <button class="slider-btn prev" onclick="prevImage()" > ❮</button>
+        <button class="slider-btn next" onclick="nextImage()">❯</button>
+        <!-- BADGE -->
+        <div class="hero-badge">
+          <img id="schoolLogo" class="school-logo"src="https://cdn-icons-png.flaticon.com/512/4207/4207247.png" alt="School Logo">
+          <div>
+            <div  style=" display:flex; gap:8px;align-items:center;" ><span class="dot"></span>
+              <strong id="schoolName"> សាខាទី១ </strong>
+            </div>
+            <small id="schoolText">សាលារៀន ពន្លឺ អាស៊ី</small>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- FEATURES -->
+    <div class="container features">
+      <div class="feature">
+        <div class="icon">ច</div>
+        <div>
+          <h3>ចំណេះដឹង</h3>
+          <p>
+            ចំណេះគឺជាព័ត៌មាននិងបទពិសោធន៍ដែលមនុស្សទទួលបានពីការរៀន និងអនុវត្ត។
+          </p>
+        </div>
+      </div>
+
+         <div class="feature">
+        <div class="icon">គ</div>
+        <div>
+          <h3>គុណភាព</h3>
+          <p>គុណភាពគឺជាលក្ខណៈល្អនិងសមត្ថភាពផ្ទាល់ខ្លួនដែលបង្ហាញពីតម្លៃរបស់មនុស្ស។</p>
+        </div>
+      </div>
+
+      <div class="feature">
+        <div class="icon">ស</div>
+        <div>
+          <h3>សមត្ថភាព</h3>
+          <p> គឺជាលទ្ធភាពនិងជំនាញក្នុងការរៀនយល់ដឹងនិងអនុវត្តបានល្អ។</p>
+           </div>
+      </div>
+
+    </div>
+  </section>
+
+<!-- Prgram -->
+  
+<!-- ===============================
+     PROGRAM SECTION
+================================= -->
+
+<section class="program-section">
+
+  <div class="program-container">
+
+    <!-- LEFT -->
+
+    <div class="program-content">
+
+      <div class="program-badge">
+        <i class="fa-solid fa-graduation-cap"></i>
+        កម្មវិធីសិក្សា ឆ្នាំ២០២៦
+      </div>
+
+      <h2>
+        កម្មវិធីសិក្សា
+        <span>នឹងកាលវិភាគសិក្សា</span>
+      </h2>
+
+      <p>
+        យើងផ្តល់ជូនកម្មវិធីសិក្សា
+        ប្រកបដោយគុណភាព
+        ជាមួយគ្រូបង្រៀនមានបទពិសោធន៍
+        និងបរិយាកាសសិក្សាទំនើប
+        ដើម្បីអភិវឌ្ឍសមត្ថភាពសិស្ស
+        ទាំងផ្នែកចំណេះដឹង និងជំនាញអនុវត្ត។
+      </p>
+
+      <!-- FEATURES -->
+
+      <div class="program-features">
+
+        <div class="program-card">
+
+          <div class="program-icon">
+            <i class="fa-solid fa-clock"></i>
+          </div>
+
+          <div>
+            <h4>ម៉ោងសិក្សាបត់បែន</h4>
+            <span>មានវេនព្រឹក • រសៀល • ល្ងាច</span>
+          </div>
+
+        </div>
+
+        <div class="program-card">
+
+          <div class="program-icon">
+            <i class="fa-solid fa-book-open"></i>
+          </div>
+
+          <div>
+            <h4>មុខវិជ្ជាសំខាន់</h4>
+            <span>ខ្មែរ • អង់គ្លេស • គណិតវិទ្យា</span>
+          </div>
+
+        </div>
+
+        <div class="program-card">
+
+          <div class="program-icon">
+            <i class="fa-solid fa-laptop-code"></i>
+          </div>
+
+          <div>
+            <h4>វគ្គបំប៉នបន្ថែម</h4>
+            <span>កុំព្យូទ័រ • ភាសាចិន • អង់គ្លេស</span>
+          </div>
+
+        </div>
+
+      </div>
+
+      <!-- BUTTONS -->
+
+      <div class="program-buttons">
+
+        <a href="../subject/program.html" class="program-btn">
+          មើលកាលវិភាគ
+          <i class="fa-solid fa-arrow-right"></i>
+        </a>
+
+        <a href="#" class="program-btn-secondary">
+          <i class="fa-solid fa-phone"></i>
+          ទំនាក់ទំនង
+        </a>
+
+      </div>
+
+    </div>
+
+    <!-- RIGHT -->
+
+    <div class="program-preview">
+
+      <div class="program-preview-card">
+
+        <!-- HEADER -->
+
+        <div class="program-header">
+
+          <div class="program-header-left">
+
+            <div class="program-big-icon">
+              <i class="fa-solid fa-school"></i>
+            </div>
+
+            <div>
+              <h3>កាលវិភាគសិក្សា</h3>
+              <span>ឆ្នាំសិក្សា ២០២៦</span>
+            </div>
+
+          </div>
+
+          <div class="program-live">
+            ● កំពុងបើកទទួលសិស្ស
+          </div>
+
+        </div>
+
+        <!-- TIMES -->
+
+        <div class="program-time">
+
+          <div class="program-time-icon">
+            <i class="fa-solid fa-sun"></i>
+          </div>
+
+          <div>
+            <h4>វេនព្រឹក</h4>
+            <span>៧:០០ - ១០:៣០</span>
+          </div>
+
+        </div>
+
+        <div class="program-time">
+
+          <div class="program-time-icon">
+            <i class="fa-solid fa-cloud-sun"></i>
+          </div>
+
+          <div>
+            <h4>វេនរសៀល</h4>
+            <span>២:០០ - ៤:០០</span>
+          </div>
+
+        </div>
+
+        <div class="program-time">
+
+          <div class="program-time-icon">
+            <i class="fa-solid fa-moon"></i>
+          </div>
+
+          <div>
+            <h4>វេនល្ងាច</h4>
+            <span>៤:៣០ - ៨:០០</span>
+          </div>
+
+        </div>
+
+        <!-- SUBJECTS -->
+
+        <h4 class="program-title">
+          មុខវិជ្ជាសិក្សា
+        </h4>
+
+        <div class="program-tags">
+
+          <span>ខ្មែរ</span>
+          <span>អង់គ្លេស</span>
+          <span>គណិត</span>
+          <span>កុំព្យូទ័រ</span>
+          <span>ភាសាចិន</span>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+ <!-- Endprogram -->
+
+<!-- NEWS -->
+  <!-- Cards -->
+     <div class="container">
+           <div class="section-head">
+      <h2 style="color: black; size: 18px;">ព័ត៌មាន & ព្រឹត្តិការណ៍</h2>
+
+    </div>
+        <div class="cards-grid">
+            <article class="card" data-category="news">
+                <div class="card-img">
+                    <img src="../src/Banner/brjom.jpg" alt="Conference">
+                    <span class="badge">ព័ត៌មាន & ព្រឹត្តិការណ៍</span>
+                    <button class="like-btn" onclick="toggleLike(this)">
+                        <i class="far fa-heart"></i>
+                    </button>
+                </div>
+                <div class="card-body">
+                    <div class="card-meta">
+                        <i class="far fa-calendar"></i>
+                        January 25, 2024
+                    </div>
+                    <h2 class="card-title">International Academic Conference Successfully Concluded</h2>
+                    <p class="card-desc">Our university hosted a groundbreaking international conference bringing together leading researchers and academics.</p>
+                    <a href="#" class="card-link">អានបន្ត <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </article>
+
+            <article class="card" data-category="events">
+                <div class="card-img">
+                    <img src="../src/Banner/bossjpg.jpg" alt="Workshop">
+                    <span class="badge">ព័ត៌មាន & ព្រឹត្តិការណ៍</span>
+                    <button class="like-btn" onclick="toggleLike(this)">
+                        <i class="far fa-heart"></i>
+                    </button>
+                </div>
+                <div class="card-body">
+                    <div class="card-meta">
+                        <i class="far fa-calendar"></i>
+                        January 22, 2024
+                    </div>
+                    <h2 class="card-title">Annual Campus Innovation Workshop Launches</h2>
+                    <p class="card-desc">Join us for an exciting workshop series featuring hands-on learning sessions and networking opportunities.</p>
+                    <a href="#" class="card-link">អានបន្ត <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </article>
+
+            <article class="card" data-category="featured">
+                <div class="card-img">
+                    <img src="../src/Banner/ttul sinhabat.jpg" alt="Research">
+                    <span class="badge">ព័ត៌មាន & ព្រឹត្តិការណ៍</span>
+                    <button class="like-btn" onclick="toggleLike(this)">
+                        <i class="far fa-heart"></i>
+                    </button>
+                </div>
+                <div class="card-body">
+                    <div class="card-meta">
+                        <i class="far fa-calendar"></i>
+                        January 20, 2024
+                    </div>
+                    <h2 class="card-title">Breakthrough Research Initiative Receives Major Funding</h2>
+                    <p class="card-desc">Our university's cutting-edge research project has secured significant funding for scientific advancement.</p>
+                    <a href="#" class="card-link">អានបន្ត <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </article>
+
+           
+           
+        </div>
+</div>
+
+<!-- Gallery slider -->
+  <section id="gallery">
+    <div class="section-title">
+    
+    </div>
+    <div class="slider" aria-label="វិចិត្រសាលរូបភាព">
+      <div class="slides">
+        <!-- 4 originals -->
+        <img src="../src/Banner/Chairs LAS.jpg" alt="វិចិត្រសាល ១">
+        <img src="../src/Banner/join.jpg" alt="វិចិត្រសាល ២">
+        <img src="../src/Banner/bglas (2).jpg" alt="វិចិត្រសាល ៣">
+        <img src="../src/Banner/pic las.jpg" alt="វិចិត្រសាល ៤">
+         <!-- 4 originals -->
+         <img src="../src/Banner/Chairs LAS.jpg" alt="វិចិត្រសាល ១">
+        <img src="../src/Banner/join.jpg" alt="វិចិត្រសាល ២">
+        <img src="../src/Banner/bglas (2).jpg" alt="វិចិត្រសាល ៣">
+        <img src="../src/Banner/pic las.jpg" alt="វិចិត្រសាល ៤">
+         <!-- 4 originals -->
+        <img src="../src/Banner/Chairs LAS.jpg" alt="វិចិត្រសាល ១">
+        <img src="../src/Banner/join.jpg" alt="វិចិត្រសាល ២">
+        <img src="../src/Banner/bglas (2).jpg" alt="វិចិត្រសាល ៣">
+        <img src="../src/Banner/pic las.jpg" alt="វិចិត្រសាល ៤">
+       
+      </div>
+    </div>
+  </section>
+  
+<!-- Responsive Footer -->
+<footer class="footer">
+  <div class="footer-container">
+    <!-- University Info -->
+    <div class="footer-section">
+      <img src="../src/logo/LOGO.gif" alt="University Logo" class="img">
+      <p><strong>Light of Asia School</strong></p>
+      <p>
+        LAS,Cheach Village,<br>
+        Cheach Commune, Kamchaymear District,<br>
+        Prey Veng Province, CAMBODIA.
+      </p>
+    </div>
+
+    <!-- Contact Info -->
+    <div class="footer-section">
+      <h4>Contacts</h4>
+      <p><i class="fas fa-phone"></i>123 456 78</p>
+      <p><i class="fas fa-envelope"></i> info@las.kh</p>
+    </div>
+
+    <!-- Social Links -->
+    <div class="footer-section">
+      <h4>Follow Us</h4>
+      <div class="social-icons">
+        <a href="#"><i class="fab fa-telegram"></i></a>
+        <a href="#"><i class="fab fa-youtube"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-facebook"></i></a>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p>© Copyright 2026 Light of Asia School. All rights reserved.</p>
+  </div>
+</footer>
+
+
+</body>
+</html>
+<script src="../JS/slideheader.js"></script>
